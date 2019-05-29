@@ -50,6 +50,7 @@ def generate_toy_dataset(num_samples=1):
     dataset = dataset.repeat()
     return(dataset)
 
+
 def generate_toy_image(num_samples=1):
 
     # Make toy data.
